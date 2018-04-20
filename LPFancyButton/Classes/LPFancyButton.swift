@@ -6,7 +6,7 @@ public class LPFancyButton: UIButton {
         super.init(frame: frame)
         
         // Customize the looks
-        self.backgroundColor = .red
+        self.backgroundColor = .green
         self.setTitle("Button", for: .normal)
         self.setTitleColor(UIColor.white, for: .normal)
         self.layer.cornerRadius = frame.height / 2
