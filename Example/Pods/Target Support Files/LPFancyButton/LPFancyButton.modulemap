@@ -1,0 +1,6 @@
+framework module LPFancyButton {
+  umbrella header "LPFancyButton-umbrella.h"
+
+  export *
+  module * { export * }
+}

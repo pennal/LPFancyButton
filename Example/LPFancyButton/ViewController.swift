@@ -7,18 +7,28 @@
 //
 
 import UIKit
+import LPFancyButton
 
 class ViewController: UIViewController {
-
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        // Init our button
+        let button = LPFancyButton(frame: CGRect(x: 10, y: 20, width: 200, height: 50))
+        // Set the title
+        button.setTitle("Press Me!", for: .normal)
+        // Add an "onClick" handler
+        button.addTarget(self, action: #selector(pushedButton), for: .touchUpInside)
+        // Center it in the view
+        button.center = self.view.center
+        // Actually add it
+        view.addSubview(button)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @objc
+    func pushedButton() {
+        print("Pressed button!")
     }
-
+    
 }
 

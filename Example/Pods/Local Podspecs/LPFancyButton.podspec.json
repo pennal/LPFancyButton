@@ -1,0 +1,22 @@
+{
+  "name": "LPFancyButton",
+  "version": "0.1.0",
+  "summary": "A short description of LPFancyButton.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/pennatil/LPFancyButton",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "pennatil": "pennal@usi.ch"
+  },
+  "source": {
+    "git": "https://github.com/pennatil/LPFancyButton.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "LPFancyButton/Classes/**/*"
+}

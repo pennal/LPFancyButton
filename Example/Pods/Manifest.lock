@@ -1,0 +1,16 @@
+PODS:
+  - LPFancyButton (0.1.0)
+
+DEPENDENCIES:
+  - LPFancyButton (from `../`)
+
+EXTERNAL SOURCES:
+  LPFancyButton:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  LPFancyButton: 433944defb8a0fb6d9da32a6954092b6f4dfdc75
+
+PODFILE CHECKSUM: fbed5f2ead623f85907acf2c62d6309c70a9b31a
+
+COCOAPODS: 1.5.0
