@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'LPFancyButton_Example' do
+  pod 'LPFancyButton', :path => '../'
+
+  target 'LPFancyButton_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
